@@ -28,7 +28,7 @@ namespace ProjectAssignment.Controllers
             return View();
         }
 
-        // POST: Login/Create
+        // POST: Login/Login
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Login(LoginViewModel loginViewModel)
@@ -42,7 +42,7 @@ namespace ProjectAssignment.Controllers
                     var password = PasswordUtil.EncodePassword(loginViewModel.Password, keyCode);
                     if (password.Equals(employee.Password))
                     {
-                        FormsAuthentication.SetAuthCookie(loginViewModel.EmployeeID, false);
+                        FormsAuthentication.SetAuthCookie(employee.Name, false);
 
                         return RedirectToAction("Index", "Employee");
                     }
