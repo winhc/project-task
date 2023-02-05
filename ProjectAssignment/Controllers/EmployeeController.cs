@@ -207,7 +207,9 @@ namespace ProjectAssignment.Controllers
                     }
                 }
             }
-            return View();
+            List<Department> departments = await _departmentRepository.GetAll();
+            viewModel.Departments = departments;
+            return View(viewModel);
         }
 
         [HttpGet, ActionName("Details")]

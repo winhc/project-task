@@ -140,14 +140,15 @@
     <Compile Include="Controllers\LoginAPIController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="DAL\ProjectAssignmentContext.cs" />
+    <Compile Include="DAL\ProjectAssignmentDbSeeder.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\IDepartmentRepository.cs" />
     <Compile Include="Interfaces\IEmployeeRepository.cs" />
-    <Compile Include="Migrations\202302050323222_InitialialMg.cs" />
-    <Compile Include="Migrations\202302050323222_InitialialMg.designer.cs">
-      <DependentUpon>202302050323222_InitialialMg.cs</DependentUpon>
+    <Compile Include="Migrations\202302051649047_InitialMig.cs" />
+    <Compile Include="Migrations\202302051649047_InitialMig.designer.cs">
+      <DependentUpon>202302051649047_InitialMig.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Department.cs" />
@@ -230,8 +231,8 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202302050323222_InitialialMg.resx">
-      <DependentUpon>202302050323222_InitialialMg.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202302051649047_InitialMig.resx">
+      <DependentUpon>202302051649047_InitialMig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

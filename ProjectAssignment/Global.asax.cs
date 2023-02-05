@@ -14,12 +14,12 @@ namespace ProjectAssignment
     {
         protected void Application_Start()
         {
+            ProjectAssignmentDbSeeder.Seed(); // seed initial data
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             UnityConfig.RegisterComponents();
-            
         }
     }
 }

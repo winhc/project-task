@@ -85,5 +85,5 @@ C:\Users\Lenovo\Desktop\WIN\ProjectAssignment\ProjectAssignment\bin\System.Runti
 C:\Users\Lenovo\Desktop\WIN\ProjectAssignment\ProjectAssignment\bin\Unity.Abstractions.pdb
 C:\Users\Lenovo\Desktop\WIN\ProjectAssignment\ProjectAssignment\bin\Unity.Container.pdb
 C:\Users\Lenovo\Desktop\WIN\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.csprojAssemblyReference.cache
-C:\Users\Lenovo\Desktop\WIN\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Migrations.InitialialMg.resources
+C:\Users\Lenovo\Desktop\WIN\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Migrations.InitialMig.resources
 C:\Users\Lenovo\Desktop\WIN\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.GenerateResource.cache
