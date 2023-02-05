@@ -20,4 +20,4 @@
 - JSON
 - Auth
 - API Controller
-- MD5 Hashing with Salt
+- MD5 Hashing with salt
