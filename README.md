@@ -17,6 +17,7 @@
 - Data Seeding
 - Unity.MVC5 1.4.0 (Dependency Injection)
 - Js Bundle
+- JSON
 - Auth
 - API Controller
 - MD5 Hashing with Salt
