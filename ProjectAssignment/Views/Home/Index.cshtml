@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Welcome";
+}
+
+<div class="jumbotron text-center" style="margin-top: 24px;">
+    <h1>Welcome</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <button id="btnLogin" class="btn btn-primary btn-lg" style="cursor: pointer">Login</button>
+</div>
+
+@section scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btnLogin").click(function () {
+                var url = '@Url.Action("Login", "Login")';
+                window.location.href = url;
+            });
+        });
+    </script>
+}
